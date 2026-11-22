@@ -27,4 +27,11 @@ export const products = [
     image: '/images/printer.jpg',
     link: '/products/printers',
   },
+  {
+  id: 5,
+  name: 'Computer Accessories',
+  description: 'Explore CPUs, motherboards, RAM, SSDs, HDDs, monitors and more.',
+  image: '/images/motherboard.jpg',
+  link: '/products/computer-accessories',
+},
 ]

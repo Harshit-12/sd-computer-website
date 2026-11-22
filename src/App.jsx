@@ -9,6 +9,7 @@ import CCTV from './pages/products/CCTV'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import WhatsAppButton from './components/WhatsAppButton'
+import Accessories from './pages/products/Accessories'
 
 function ProductLayout({ children }) {
   return (
@@ -46,7 +47,14 @@ export default function App() {
           path="/products/cctv"
           element={<ProductLayout><CCTV /></ProductLayout>}
         />
-
+        <Route
+          path="/products/computer-accessories"
+              element={
+            <ProductLayout>
+              <Accessories />
+            </ProductLayout>
+            }
+/>
         <Route
           path="*"
           element={
@@ -62,6 +70,7 @@ export default function App() {
             </ProductLayout>
           }
         />
+
       </Routes>
     </BrowserRouter>
   )
