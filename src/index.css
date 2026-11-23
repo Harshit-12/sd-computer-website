@@ -37,3 +37,12 @@ textarea {
   outline: 3px solid #e43b43;
   outline-offset: 3px;
 }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+section[id] {
+  scroll-margin-top: 90px;
+}
