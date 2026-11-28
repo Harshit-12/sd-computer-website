@@ -10,13 +10,13 @@ export const services = [
     description: 'CCTV camera sales, installation and security solutions.',
   },
   {
-    icon: 'Printer',
-    title: 'Printer Services',
-    description: 'Printer sales, servicing and troubleshooting.',
+    icon: 'Wrench',
+    title: 'Computer Lab Setup',
+    description: 'We provide end to end Computer Lab setup services.',
   },
   {
     icon: 'Wrench',
-    title: 'Computer Accesories',
-    description: 'Computer learning and IT training.',
+    title: 'Computer Accessories Services',
+    description: 'We provide services for computer parts like Printer etc.',
   },
 ]
